@@ -1,0 +1,50 @@
+{
+  "sdxl_default": {
+    "learning_rate": 0.00001,
+    "network_dim": 32,
+    "network_alpha": 16,
+    "target_steps_per_hour": 1000,
+    "max_possible_steps": 3000,
+    "lr_scheduler": "constant"
+  },
+  "flux_default": {
+    "unet_lr": 0.00005,
+    "network_dim": 128,
+    "network_alpha": 128,
+    "target_steps_per_hour": 1000,
+    "max_possible_steps": 4000,
+    "lr_scheduler": "constant"
+  },
+  "sdxl_champion": {
+    "learning_rate": 0.000008,
+    "network_dim": 96,
+    "network_alpha": 48,
+    "target_steps_per_hour": 1200,
+    "max_possible_steps": 4500,
+    "lr_scheduler": "cosine"
+  },
+  "flux_champion": {
+    "unet_lr": 0.00004,
+    "network_dim": 160,
+    "network_alpha": 160,
+    "target_steps_per_hour": 1100,
+    "max_possible_steps": 5000,
+    "lr_scheduler": "cosine"
+  },
+  "sdxl_explorer": {
+    "learning_rate": 0.00001,
+    "network_dim": 64,
+    "network_alpha": 32,
+    "target_steps_per_hour": 1100,
+    "max_possible_steps": 3500,
+    "lr_scheduler": "cosine"
+  },
+  "flux_explorer": {
+    "unet_lr": 0.000045,
+    "network_dim": 144,
+    "network_alpha": 144,
+    "target_steps_per_hour": 1050,
+    "max_possible_steps": 4500,
+    "lr_scheduler": "cosine"
+  }
+} 
